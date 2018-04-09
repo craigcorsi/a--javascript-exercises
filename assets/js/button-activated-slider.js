@@ -18,8 +18,12 @@ var progressBar = {
     }
 }
 
+console.log('test1');
+
 // button click events
 
-
+document.getElementById('buttonIncrease').onclick = function() {
+    console.log("test");
+};
 
 // keyup events
