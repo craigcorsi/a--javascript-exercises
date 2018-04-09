@@ -1,0 +1,49 @@
+html, body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin: 10px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+header {
+    margin-bottom: 28px;
+}
+
+.barContainer {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#buttonDecrease {
+    width: 40%;
+}
+
+#buttonIncrease {
+    width: 55%;
+}
+
+#progressBar {
+    width: 80%;
+    height: 50px;
+    margin: 5px auto;
+    border: 1px solid #444;
+    border-radius: 25px;
+}
+
+#fillIn {
+    width: 0;
+    height: 50px;
+    margin: 0;
+    background-color: #777; 
+}
